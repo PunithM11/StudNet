@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    max-width: 1400px;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Drop shadow effect for the container */
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    height: 500px;
+}
+.p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+}
+.content {
+    padding: 20px;
+}
+.box-container {
+    display: flex;
+    justify-content: space-between; /* Add space between the boxes */
+    margin-bottom: 20px;
+}
+.image-wrapper {
+    padding: 10px;
+    border-radius: 10px; /* Add border radius for curved shape */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add darker shadow effect for each image */
+    margin-left: 30px;
+    margin-right: 30px; /* Add more space between the images */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+img {
+    width: 350px; /* Set a fixed width */
+    height: 250px; /* Set a fixed height */
+    margin-bottom: 10px; /* Adjust spacing between image and button */
+    border-radius: 10px; /* Add border radius for curved shape */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Open Sans";
+}
+.button:hover {
+    background-color: #0056b3;
+}
+p {
+    font-size: 16px;
+    color: #555;
+}
