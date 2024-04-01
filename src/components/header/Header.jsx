@@ -26,7 +26,7 @@ const Header = () => {
                 </Link>
 
                 <Link to='/Login'>
-                <button className='btn'>Log in</button>
+                <button className='btn '>Log in</button>
                 </Link>
                 
                 <Link to='https://discord.com/' target='blank'>
