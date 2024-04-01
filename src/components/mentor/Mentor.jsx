@@ -23,18 +23,18 @@ function Mentor() {
 return (
 
   <div className='w-3/4 m-auto'>
-    <h1 className='text-4xl font-bold text-center'>Our Extert Mentors</h1>
+    <h1 className='text-4xl font-bold text-center '>Our Extert Mentors</h1>
     <div className='mt-20'>
     <Slider {...settings}>
      {data.map((d)=>(
-      <div className='bg-white h-[450px] text-black rounded-xl'>
+      <div className='bg-white h-[450px] text-black rounded-xl '>
         <div className='h-56 rounded-t-xl bg-indigo-400 flex justify-center item-center'>
           <img src={d.img} alt='' className='h-44 w-44 rounded-full mt-6'/>
         </div>
         <div className='flex flex-col justify-center items-center gap-3 p-4'>
-          <p className='text-xl font-semibold'>{d.name}</p>
-          <p>{d.review}</p>
-          <button className='bg-indigo-400 text-white text-lg px-6 py-1 rounded-xl'>Linkdien</button>
+          <p className='text-xl font-semibold m-0' >{d.name}</p>
+          <p className='m-0'>{d.review}</p>
+          <button className='bg-indigo-400 text-white text-lg px-6 py-1 rounded-full hover:bg-sky-300 w-[170px]'>Linkdien</button>
         </div>
       </div>
      ))}

@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,3 +16,18 @@ code {
     monospace;
 }
 
+
+@layer base{
+  body{
+    background-color: white;
+  }
+}
+
+.slick-slide >div {
+  margin:0 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black!important;
+}
