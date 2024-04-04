@@ -14,10 +14,10 @@ const Header = () => {
                   <Link to='/' className='Link-element'>Home</Link>
                 </li>
                 <li>
-                <Link to='/' className='Link-element'>About us</Link>
+                <a href='#vision' className='Link-element'>About us</a>
                 </li>
                 <li>
-                <Link to='/' className='Link-element'>Contacts</Link>
+                <a href='#courses' className='Link-element'>Contacts</a>
                 </li>
                 <div className='buttons'>
 
