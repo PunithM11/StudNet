@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header> 
-      <img src={StudnetImg} alt="" />
-        <nav>
+    <header className='h-24 bg-white w-[1300px] m-4 p-0 left-[130px] fixed z-50 rounded-full '> 
+      <img src={StudnetImg} alt=""  className='imgheader' />
+        <nav >
             <ul className='nav__list'>
                 <li>
                   <Link to='/' className='Link-element'>Home</Link>
