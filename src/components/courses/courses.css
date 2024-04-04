@@ -2,7 +2,7 @@
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background: #939090;
+    background: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,8 +52,8 @@
   .slider-wrapper-courses .slide-button-courses {
     position: absolute;
     top: 50%;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 70px;
     color: #fff;
     border: none;
     outline: none;
@@ -65,9 +65,9 @@
   }
   
   .slider-wrapper-courses .slide-button-courses:hover {
-    background: #444;
+    background: #fffdfd;
   }
-  
+  n
   .slider-wrapper-courses .slide-button-courses#prev-slide {
     left: -20px;
     display: none;
@@ -92,7 +92,7 @@
     background-color: rgba(218, 88, 28, 0.855);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    padding: 20px;
+    padding: 70px;
   }
   .course-courses :hover {
     
@@ -185,17 +185,19 @@
   
   .social-icons-courses a {
     color: #fff;
-    margin: 0 10px;
+    margin: 0 5px;
   }
   
   .social-icons-courses a i {
     font-size: 2em;
+    
   }
   
   .join-community-courses {
     background-color: #ecd3cbc4;
+
     color: #333;
-    padding: 20px 10px;
+    padding: 40px 10px;
     border: none;
     border-radius: 10px;
   }
