@@ -1,0 +1,27 @@
+.collection-swiper{
+    height: 25rem;
+    background-color:rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collection-swiper .content-swiper{
+    height: 7rem;
+    width: 6rem;
+    background-color: rgb(0, 0, 0); 
+    border-radius: .7rem;
+    overflow: hidden;
+
+}
+
+.content-swiper img{
+    width: 100%;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+}
+
+.swiper-div{
+    margin-top: 5rem;
+    width: 33rem;
+
+}

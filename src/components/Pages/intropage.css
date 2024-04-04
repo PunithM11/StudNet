@@ -1,11 +1,11 @@
 .container-intro-page{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     position: relative;
-    top: 10rem;
+    top: 12.5rem;
     flex-wrap: wrap;
-    gap: 15rem;
+    gap: 5rem;
 }
 
 .Image-Intro{

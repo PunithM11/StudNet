@@ -1,6 +1,7 @@
 import React from 'react'
 import './intropage.css'
-import ImageIntro from '../../images/icegif-772.gif'
+// import ImageIntro from '../../images/icegif-772.gif'
+import Carousel from '../carousel/Carousel'
 
 const Intropage = () => {
   return (
@@ -11,7 +12,8 @@ const Intropage = () => {
         </div>
 
         <div className='Image-intro-page'>
-            <img className='Image-Intro' src={ImageIntro} alt="StudNet" />
+            {/* <img className='Image-Intro' src={ImageIntro} alt="StudNet" /> */}
+            <Carousel />
         </div>
     </div>
   )
