@@ -3,13 +3,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 7rem;
+    top: 10rem;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 15rem;
 }
 
 .Image-Intro{
-    max-width: 40rem;
+    max-width: 27rem;
     transition: transform 0.4s ease;
 }
 .Image-Intro:hover {
@@ -26,7 +26,7 @@ h1{
     color: rgb(53, 53, 53);;
 }
 .details-intro-page h1 span{
-    color: rgb(0, 153, 153);
+    color: rgb(246, 246, 246);
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: 2.5rem;
@@ -36,7 +36,28 @@ h1{
     font-size: 1.75rem;
     margin-top: 3%;
 }
-.rethink span{
-    color: rgb(0, 153, 153);
+.rethink {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+   border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+
 
