@@ -71,7 +71,7 @@ const Courses = () => {
       window.addEventListener("load", initSlider);
   return (
 
-  <div className="body-courses"> 
+  <div className="body-courses" id= "courses"> 
   <header className='heading'>
     <h1>Empower Your Skills - Learn with Us</h1>
   </header>
