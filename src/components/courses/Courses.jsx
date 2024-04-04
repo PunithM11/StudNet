@@ -68,7 +68,7 @@ const Courses = () => {
         });
       };
       
-      window.addEventListener("load", initSlider);
+window.addEventListener("load", initSlider);
   return (
 
   <div className="body-courses" id= "courses"> 
