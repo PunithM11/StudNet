@@ -68,10 +68,10 @@ const Courses = () => {
         });
       };
       
-window.addEventListener("load", initSlider);
+      window.addEventListener("load", initSlider);
   return (
 
-  <div className="body-courses" id= "courses"> 
+  <div className="body-courses"> 
   <header className='heading'>
     <h1>Empower Your Skills - Learn with Us</h1>
   </header>
@@ -83,20 +83,20 @@ window.addEventListener("load", initSlider);
       <div className="course-container-courses">
         <article className="course-courses">
           <img src={image1} alt="Mentorship Program" />
-          <h3>StudNet Mentorship Program</h3>
-          <p>Description</p>
+          <h3>Mentorship Program</h3>
+          <p>Description of Mentorship Program</p>
           <a href="#">Learn More</a>
         </article>
         <article className="course-courses">
           <img src={image2} alt="Backlog Clearance Program"/>
           <h3>Backlog Clearance Program</h3>
-          <p>Description</p>
+          <p>Description of Backlog Clearance Program</p>
           <a href="#">Learn More</a>
         </article>
         <article className="course-courses">
           <img src={image3} alt="Student Upskilling Program"/>
           <h3>Student Upskilling Program</h3>
-          <p>Description</p>
+          <p>Description of Student Upskilling Program</p>
           <a href="#">Learn More</a>
         </article>
       </div>
@@ -116,10 +116,10 @@ window.addEventListener("load", initSlider);
       <a href="#"><img src={image6} alt="Twitter" width="45" height="50"/></a>
     </div>
     <div className="contact-info-courses">
-      <strong>Contact: </strong>
-      <p><b>You can reach us at: </b>
+      <strong>Contact:</strong>
+      <p><b>You can reach us at:</b>
       <a href="mailto:support@edtech.com">support@edtech.com</a>
-      </p><b>Call us at: </b> 
+      </p><b>Call us at:</b> 
       <a href="tel:+1234567890">+1 (234) 567-890</a>
     </div>
     <a href="#" className="join-community-courses">Join Our Community</a>
