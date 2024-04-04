@@ -111,9 +111,9 @@ const Courses = () => {
 
   <footer>
     <div className="social-icons-courses">
-      <a href="#"><img src={image4} alt="Facebook" width="90" height="50"/></a>
-      <a href="#"><img src={image5} alt="Instagram" width="60" height="50"/></a>
-      <a href="#"><img src={image6} alt="Twitter" width="70" height="50"/></a>
+      <a href="#"><img src={image4} alt="Facebook" width="80" height="50"/></a>
+      <a href="#"><img src={image5} alt="Instagram" width="48" height="50"/></a>
+      <a href="#"><img src={image6} alt="Twitter" width="45" height="50"/></a>
     </div>
     <div className="contact-info-courses">
       <strong>Contact:</strong>
