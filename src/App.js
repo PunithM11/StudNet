@@ -4,6 +4,7 @@ import Signup from './components/signup/Signup';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 import Home from './components/homepage/Home';
 
+
 function App() {
   return (
     <Router>
@@ -13,6 +14,7 @@ function App() {
         <Route path="/SignUp" Component={Signup} />
       </Routes>
     </ Router>
+    
   );
 }
 

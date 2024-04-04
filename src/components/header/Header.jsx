@@ -14,22 +14,22 @@ const Header = () => {
                   <Link to='/' className='Link-element'>Home</Link>
                 </li>
                 <li>
-                <Link to='/' className='Link-element'>About us</Link>
+                <Link to='#about' className='Link-element'>About us</Link>
                 </li>
                 <li>
                 <Link to='/' className='Link-element'>Contacts</Link>
                 </li>
                 <div className='buttons'>
 
-                <Link to='/Signup'>
+                <Link to='/Signup' className='btn-link'>
                 <button className='btn'>Sign up</button>
                 </Link>
 
-                <Link to='/Login'>
+                <Link to='/Login' className='btn-link'>
                 <button className='btn'>Log in</button>
                 </Link>
                 
-                <Link to='https://discord.com/' target='blank'>
+                <Link to='https://discord.com/' target='blank' className='btn-link'>
                 <button className='btn'>Join us</button>
                 </Link>
                 

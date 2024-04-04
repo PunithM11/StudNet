@@ -1,26 +1,14 @@
 .container-intro-page{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
+    left: 4rem;
     position: relative;
     top: 7rem;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 7rem;
 }
 
-.Image-Intro{
-    max-width: 40rem;
-    transition: transform 0.4s ease;
-}
-.Image-Intro:hover {
-    transform: scale(1.1); 
-}
-
-
-.Image-intro-page{
-    top: 20rem;
-
-}
 h1{
     font-size: 2.25rem;
     color: rgb(53, 53, 53);;
@@ -39,4 +27,3 @@ h1{
 .rethink span{
     color: rgb(0, 153, 153);
 }
-

@@ -1,8 +1,10 @@
 import React from 'react'
 import './intropage.css'
-import ImageIntro from '../../images/imgIntro.jpg'
+import Carousel from '../carousel/Carousel'
+
 
 const Intropage = () => {
+
   return (
     <div className='container-intro-page'>
         <div className='details-intro-page'>
@@ -11,10 +13,10 @@ const Intropage = () => {
         </div>
 
         <div className='Image-intro-page'>
-            <img className='Image-Intro' src={ImageIntro} alt="StudNet" />
+            <Carousel />
         </div>
     </div>
   )
 }
 
-export default Intropage
+export default Intropage;
