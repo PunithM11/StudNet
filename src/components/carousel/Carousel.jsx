@@ -1,7 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Image1 from '../../images/carouselimg1.jpeg'
-import Image2 from '../../images/carouselimg2.jpeg'
+import Image1 from '../../images/imag.jpg'
+import Image2 from '../../images/imag.jpg'
 import Image4 from '../../images/carouselimg3.jpeg'
 import Image5 from '../../images/carouselimg4.jpeg'
 import Image6 from '../../images/carouselimg5.jpeg'
@@ -17,14 +17,14 @@ const Carousel = () => {
       grabCursor= {true}
       centeredSlides= {true}
       loop={true}
-      slidesPerView= {2.70}
+      slidesPerView= {2.63}
       spaceBetween={0}
       coverflowEffect={{
         rotate: 0,
         stretch: 0,
         scale: 1,
-        depth: 75,
-        modifier: 0.9,
+        depth: 120,
+        modifier: 1.2,
         slideShadows: true,
       }}
       autoplay={{

@@ -1,5 +1,8 @@
 import React from 'react'
 import './about.css'
+import student from '../../images/image1.jpg'
+import mentor from '../../images/image2.jpg'
+import campus from '../../images/image3.jpg'
 
 const About = () => {
   return (
@@ -10,13 +13,18 @@ const About = () => {
         
         <div className="box-container-about">
             <div className="image-wrapper-about">
-                <img className="img-about" src="https://th.bing.com/th/id/OIP.PAHkQGbZzBm6kYT_pCdAhAHaE7?rs=1&pid=ImgDetMain" alt="Student Image"/>
+                <img className="img-about" src={student} alt=" "/>
                 <button className="button-about font-bold">Student</button>
             </div>
            
             <div className="image-wrapper-about">
-                <img className="img-about" src="https://th.bing.com/th/id/OIP.LmOmDYTFRzj5G2k3Vp-SRgHaFj?pid=ImgDet&w=175&h=131&c=7&dpr=1.7" alt="Mentor Image"/>
+                <img className="img-about" src={mentor} alt=" "/>
                 <button className="button-about font-bold">Mentor</button>
+            </div>
+
+            <div className="image-wrapper-about">
+                <img className="img-about" src={campus} alt=" "/>
+                <button className="button-about font-bold">Campus Ambassador</button>
             </div>
         </div>
     </div>

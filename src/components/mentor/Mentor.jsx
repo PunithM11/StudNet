@@ -23,7 +23,7 @@ function Mentor() {
 return (
 
   <div className='w-5/6 m-auto'>
-    <h1 className='text-4xl font-bold text-center '>Our Extert Mentors</h1>
+    <h1 className='text-4xl font-bold text-center '>Our Expert Mentors</h1>
     <div className='mt-20'>
     <Slider {...settings}>
      {data.map((d)=>(
@@ -34,7 +34,7 @@ return (
         <div className='flex flex-col justify-center items-center gap-3 p-4'>
           <p className='text-xl font-semibold m-0' >{d.name}</p>
           <p className='m-0'>{d.review}</p>
-          <button className='bg-indigo-500 text-white text-lg px-6 py-1 rounded-full hover:bg-sky-300 w-[170px]'>Linkdien</button>
+          <button className='bg-indigo-500 text-white text-lg px-6 py-1 rounded-full hover:bg-sky-300 w-[170px]'>LinkedIn</button>
         </div>
       </div>
      ))}

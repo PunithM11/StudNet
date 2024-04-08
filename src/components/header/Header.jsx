@@ -6,18 +6,21 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className='h-24 bg-white w-[1300px] m-4 p-0 left-[130px] fixed z-50 rounded-full '> 
+    <header className='h-24 bg-white w-[1300px] m-4 p-0 fixed z-50 rounded-full '> 
       <img src={StudnetImg} alt=""  className='imgheader' />
         <nav >
             <ul className='nav__list'>
                 <li>
-                  <Link to='/' className='Link-element'>Home</Link>
+                <a href='#home' className='Link-element'>Home</a>
                 </li>
                 <li>
                 <a href="#vision" className='Link-element'>About us</a>
                 </li>
                 <li>
                 <a href="#courses" className='Link-element'>Contacts</a>
+                </li>
+                <li>
+                <a href="#courses" className='Link-element'>Courses</a>
                 </li>
                 <div className='buttons'>
 

@@ -5,7 +5,7 @@ import Carousel from '../carousel/Carousel'
 
 const Intropage = () => {
   return (
-    <div className='container-intro-page'>
+    <div className='container-intro-page' id= "home">
         <div className='details-intro-page'>
         <h1><span>MENTORSHIP</span> in the <br />field of <span>ACADEMIA</span> & beyond </h1>
         <h2 class="rethink">Rethink and Relearn Your Degree .</h2>
