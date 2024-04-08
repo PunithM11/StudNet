@@ -13,7 +13,7 @@ const Courses = () => {
         const slideButtons = document.querySelectorAll(".slider-wrapper .slide-button");
         const sliderScrollbar = document.querySelector(".courses .slider-scrollbar");
         const scrollbarThumb = document.querySelector(".slider-scrollbar .scrollbar-thumb");
-        const maxScrollLeft = courseContainers[0].scrollWidth - courseContainers[0].clientWidth;
+        const maxScrollLeft = courseContainers[0].clientWidth;
       
         scrollbarThumb.addEventListener("mousedown", (e) => {
           const startX = e.clientX;
